@@ -1,0 +1,21 @@
+body {
+    max-height: 1440px;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--dark);
+    color: #fff;
+}
+
+.title_topic{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgb(100, 99, 99);
+}
+
+@media screen and (max-width: 900px){
+    body{
+        height: 100%;
+    }
+}

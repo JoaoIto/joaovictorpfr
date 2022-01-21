@@ -1,0 +1,22 @@
+.btn-header{
+    height: 30px;
+    width: 180px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--ultra-blue);
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    transition: 0.25s all;
+}
+
+.btn-header:hover{
+    transform: scale(1.05);
+    background-color: var(--blue);
+}
+
+.btn-header:active{
+    background-color: var(--dark-blue);
+}
+

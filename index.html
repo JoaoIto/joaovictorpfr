@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font imports-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--CSS reset and basic styles-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <!--header styles-->
+    <link rel="stylesheet" href="./css/header/style.css">
+    <link rel="stylesheet" href="./css/header/nav.css">
+    <link rel="stylesheet" href="./css/header/text.css">
+    <link rel="stylesheet" href="./css/header/btn.css">
+    <link rel="stylesheet" href="./css/header/bio.css">
+    <link rel="stylesheet" href="./css/header/spam.css">
+    <!--main styles-->
+    <link rel="stylesheet" href="./css/main/style.css">
+    <link rel="stylesheet" href="./css/main/icon.css">
+    <!--footer styles-->
+    <link rel="stylesheet" href="./css/footer/style.css">
+
+    <link rel="shortcut icon" href="./img/coding.png" type="image/x-icon">
+    <title>Portifólio - JoaoIto</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_green">
+            <div class="header-top">
+                <h3 id="title-header">Portfólio</h3>
+                <nav>
+                    <a class="link-header" href="#sobre">Sobre mim</a>
+                    <a class="link-header" href="#skills">Skills</a>
+                </nav>
+            </div>
+            <div class="header-principal">
+                <div class="left_principal">
+                    <h1 id="principal_title_header">Olá, sou o João! :)</h1>
+                    <span id="description_title">Desenvolvedor Frond-End Junior e Estudante</span>
+                    <div class="btn">
+                        <button class="btn-header" id="dow-print" onclick="window.print( )">Dowload PrintScream</button>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-ito-97502420b/"><button class="btn-header" id="spam-email">Entrar em contato</button></a>
+                    </div>
+                </div>
+                <div class="right_principal">
+                    <img src="./img/developer.png" alt="imagem representando um desenvolvedor">
+                </div>
+            </div>
+        </div>
+        <div class="header-down">
+            <div class="bio">
+                <h2 class="title_topic" id="sobre">Sobre mim</h2>
+                <p id="description">Sou o João, tenho 16 anos. Eu nasci em Goiânia,
+                    porém hoje moro em Dianópolis-TO e sou estudante do Instituto
+                    Federal do Tocantins em Técnico de Informática.
+                    Ouero arrumar minha primeira oportunidade no mercado de trabalho
+                    dos desenvolvedores, como front-end junior! Abaixo está um pouco
+                    dos meus pequenos projetos, é simples, porém funcional, aproveite ;)
+                </p>
+            </div>
+            <div class="spam-social_media">
+                <label for="email">joaovictorpfr@gmail.com</label>
+                <button id="email" name="email" class="social_media"><img class="social_media-icon"
+                        src="./img/email.png" alt=""></button>
+                <label for="insta">joaoitoxd</label>
+                <a href="https://www.instagram.com/joaoitoxd/"><button id="insta" name="insta" class="social_media"><img
+                            class="social_media-icon" src="./img/instagram.png" alt=""></button></a>
+                <label for="linkedin">João-Ito</label>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-ito-97502420b/"><button id="linkedin" name="linkedin"
+                        class="social_media"><img class="social_media-icon" src="./img/linkedin.png"
+                            alt=""></button></a>
+                <label for="github">JoaoIto</label>
+                <a href="https://github.com/JoaoIto"><button id="github" name="github" class="social_media"><img
+                            class="social_media-icon" src="./img/github.png" alt=""></button></a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="skills">
+            <h2 class="title_topic" id="skills">Skills</h2>
+            <div class="icons">
+                <div class="container" id="html"><img src="./img/html-5.png" alt="" class="icon-tech"></div>
+                <div class="container" id="js"><img src="./img/js.png" alt="" class="icon-tech"></div>
+                <div class="container" id="boots"><img src="./img/bootstrap.png" alt="" class="icon-tech"></div>
+                <div class="container" id="react"><img src="./img/react.png" alt="" class="icon-tech"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-down">
+            <p>Site desenvolvido por<a class="spam" href="https://github.com/JoaoIto">JoaoIto</a>e idealizado por <a
+                    class="spam" href="iuricode.com">IuriSilva</a></p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

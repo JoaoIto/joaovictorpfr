@@ -1,0 +1,11 @@
+a{
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    margin: 30px;
+}
+a:hover{
+    color: #fff;
+}
+a:active{
+    color: #fff;
+}
