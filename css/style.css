@@ -1,3 +1,16 @@
+:root {
+    --green: #00DF5E;
+    --dark-green: #04a045;
+    --blue: #60b5e6;
+    --dark-blue: #36a2e0;
+    --ultra-blue: rgba(63, 61, 86, 1);;
+    --grey: #828282;
+    --back-grey: #333333;
+    --ultra-grey: #212121;
+    --dark: #171717;
+    --white: #FFFFFF;
+}
+
 body {
     max-height: 1440px;
     width: 100%;
@@ -18,4 +31,264 @@ body {
     body{
         height: 100%;
     }
+}
+
+.icon-tech{
+    height: 100px;
+    width: 100px;
+}
+#html:hover{
+    background-color: rgb(255, 145, 0);
+}
+
+#js:hover{
+    background-color: yellow;
+}
+
+#boots:hover{
+    background-color: blueviolet;
+}
+
+#react:hover{
+    background-color: rgb(0, 174, 255);
+}
+
+main{
+     width: 100%;
+ }
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.icons{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.root {
+    background: var(--dark);
+}
+
+/*a {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 130px;*/
+/*    width: 130px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: -2px 2px 2px 2px #b8dac3;*/
+/*    background-color: var(--green);*/
+/*    transition: 0.25s all;*/
+/*}*/
+
+a:hover{
+    transform: scale(1.05);
+}
+
+footer{
+     height: 40px;
+     width: 100%;
+     font-weight: 050;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: var(--back-grey);
+ }
+
+.spam:hover{
+    color: var(--green);
+}
+
+@media screen and (max-width: 900px){
+    footer{
+        text-align: center;
+    }
+}
+
+.bio{
+    height: 130px;
+    width: 70%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+#description{
+    margin: 20px;
+    color: var(--grey);
+}
+
+.btn-header{
+    height: 30px;
+    width: 180px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--ultra-blue);
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    transition: 0.25s all;
+}
+
+.btn-header:hover{
+    transform: scale(1.05);
+    background-color: var(--blue);
+}
+
+.btn-header:active{
+    background-color: var(--dark-blue);
+}
+
+a{
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    margin: 30px;
+}
+a:hover{
+    color: #fff;
+}
+a:active{
+    color: #fff;
+}
+
+.spam-social_media{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social_media{
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    box-shadow: -1px 1px 1px 1px #00DF5E;
+    background-color: #fff;
+    transition: 0.25s all;
+}
+
+.social_media-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.social_media:hover{
+    transform: scale(1.05);
+}
+
+#insta:hover{
+    background-color: rgb(240, 33, 68);
+}
+
+#email:hover{
+    background-color: rgb(248, 157, 172);
+}
+
+#linkedin:hover{
+    background-color: rgb(56, 56, 223);
+}
+
+#github:hover{
+    background-color: var(--back-grey);
+}
+
+header{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_green{
+    margin-bottom: 50px;
+    background-color: var(--dark-green);
+}
+.header-top{
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-principal{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.left_principal{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-down{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px){
+    header{
+        margin-bottom: 800px;
+    }
+    .header-principal{
+        flex-direction: column;
+    }
+
+    .header-down{
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    .header_green{
+        margin-bottom: 150px;
+    }
+
+    .spam-social_media{
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    #email{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+#title-header{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+#principal_title_header{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgb(109, 109, 109);
+    color: var(--white);
 }
