@@ -17,18 +17,22 @@ main{
     margin: 30px;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 130px;
-    width: 130px;
-    border-radius: 20px;
-    box-shadow: -2px 2px 2px 2px #b8dac3;
-    background-color: var(--green);
-    transition: 0.25s all;
+.root {
+    background: var(--dark);
 }
 
-.container:hover{
+/*a {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 130px;*/
+/*    width: 130px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: -2px 2px 2px 2px #b8dac3;*/
+/*    background-color: var(--green);*/
+/*    transition: 0.25s all;*/
+/*}*/
+
+a:hover{
     transform: scale(1.05);
 }
