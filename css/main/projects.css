@@ -1,0 +1,35 @@
+.title-base{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.descript-base{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+#aluraFlix:hover{
+    background-color: #991219;
+}
+
+#discordChat:hover{
+    background-color: #618bc2;
+}
+
+#bank:hover{
+    background-color: #a39802;
+}
+
+#toDoList:hover{
+    background-color: rgb(5, 145, 155);
+}
+
+#loginForm:hover{
+    background-color: rgb(2, 126, 84);
+}
+
+#algoritmos:hover{
+    background-color: rgb(210, 81, 30);
+}

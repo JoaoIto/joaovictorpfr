@@ -23,6 +23,7 @@
     <!--main styles-->
     <link rel="stylesheet" href="./css/main/style.css">
     <link rel="stylesheet" href="./css/main/icon.css">
+    <link rel="stylesheet" href="./css/main/projects.css">
     <!--footer styles-->
     <link rel="stylesheet" href="./css/footer/style.css">
 
@@ -38,6 +39,7 @@
                 <nav>
                     <a class="link-header" href="#sobre">Sobre mim</a>
                     <a class="link-header" href="#skills">Skills</a>
+                    <a class="link-header" href="#projects">Projetos</a>
                 </nav>
             </div>
             <div class="header-principal">
@@ -46,7 +48,8 @@
                     <span id="description_title">Desenvolvedor Frond-End Junior e Estudante</span>
                     <div class="btn">
                         <button class="btn-header" id="dow-print" onclick="window.print( )">Dowload PrintScream</button>
-                        <a href="https://www.linkedin.com/in/jo%C3%A3o-ito-97502420b/"><button class="btn-header" id="spam-email">Entrar em contato</button></a>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-ito-97502420b/"><button class="btn-header"
+                                id="spam-email">Entrar em contato</button></a>
                     </div>
                 </div>
                 <div class="right_principal">
@@ -58,8 +61,9 @@
             <div class="bio">
                 <h2 class="title_topic" id="sobre">Sobre mim</h2>
                 <p id="description">Sou o João, tenho 16 anos. Eu nasci em Goiânia,
-                    porém hoje moro em Dianópolis-TO e sou estudante do Instituto
-                    Federal do Tocantins em Técnico de Informática.
+                    porém hoje moro em Porto Nacional - TO, fui estudante do Instituto
+                    Federal do Tocantins em Técnico de Informática e agora estudo no colégio particular Sagrado Coração
+                    de Jesus. Estudo programação na Alura e Rocktseat com alguns projetos solos...
                     Ouero arrumar minha primeira oportunidade no mercado de trabalho
                     dos desenvolvedores, como front-end junior! Abaixo está um pouco
                     dos meus pequenos projetos, é simples, porém funcional, aproveite ;)
@@ -84,14 +88,65 @@
 
     </header>
     <main>
-        <section class="skills">
+        <section class="topic skills">
             <h2 class="title_topic" id="skills">Skills</h2>
             <div class="icons">
                 <div class="container" id="html"><img src="./img/html-5.png" alt="" class="icon-tech"></div>
                 <div class="container" id="js"><img src="./img/js.png" alt="" class="icon-tech"></div>
+                <div class="container" id="css"><img src="./img/css.png" alt="" class="icon-tech"></div>
                 <div class="container" id="boots"><img src="./img/bootstrap.png" alt="" class="icon-tech"></div>
                 <div class="container" id="react"><img src="./img/react.png" alt="" class="icon-tech"></div>
+                <div class="container" id="next"><img src="./img/nextJS.png" alt="" class="icon-tech"></div>
             </div>
+        </section>
+
+        <section class="topic projects">
+            <h2 class="title_topic" id="projects">Projetos</h2>
+            <div class="icons">
+                <a href="https://github.com/JoaoIto/AluraFlix">
+                    <button class="base" id="aluraFlix"><img src="./img/netflix.png" alt="Alura Flix, logo da netflix"
+                            class="icon-tech">
+                        <label class="title-base">AluraFLix</h3>
+                            <p class="descript-base">O projeto é um buscados de título de filmes, em que voc|ê escolhe
+                                seu
+                                filme, mostrando informações como de IMDB, título, trailer, etc.</p>
+                    </button>
+                </a>
+                <a href="https://github.com/JoaoIto/alura_discord">
+                    <button class="base" id="discordChat"><img src="./img/discord.png"
+                            alt="discordChat, logo do discord em chat" class="icon-tech">
+                        <label class="title-base">Alura DiscordChat</h3>
+                            <p class="descript-base">Chat de discord, com página de login e de chat, com login de dados
+                                em um banco, feito em React e Next.js!</p>
+                    </button>
+                </a><a href="https://github.com/JoaoIto/BankSistem">
+                    <button class="base" id="bank"><img src="./img/bankCard.png" alt="debit card" class="icon-tech">
+                        <label class="title-base">BankSistem</h3>
+                            <p class="descript-base">Este é um sistema JavaScript, totalmente feita em sistema de
+                                classes. Com sistemas de tranferência, depósito, corrente, poupança.</p>
+                    </button>
+                </a><a href="https://github.com/JoaoIto/To-do-List">
+                    <button class="base" id="toDoList"><img src="./img/toDoList.png" alt="lista de afazeres completa"
+                            class="icon-tech">
+                        <label class="title-base">To-do-List</h3>
+                            <p class="descript-base">Lista de afazeres, que é um sistema de JS, adicionando tarefas
+                                descritivas, completando tarefas, lista de data.</p>
+                    </button>
+                </a><a href="https://github.com/JoaoIto/LoginForm">
+                    <button class="base" id="loginForm"><img src="./img/account.png" alt="página de login de usuário"
+                            class="icon-tech">
+                        <label class="title-base">Login Form</h3>
+                            <p class="descript-base">Formulário de Login de usuário, em uma página google, com senha,
+                                número de usuário, forma conectada automática em página HTML, CSS, Bootstrap, FlexBox,
+                                Grid...</p>
+                    </button>
+                </a><a href="https://github.com/JoaoIto/algorithms">
+                    <button class="base" id="algoritmos"><img src="./img/algoritmos.png" alt="manual de código"
+                            class="icon-tech">
+                        <label class="title-base">Algoritmos JS</h3>
+                            <p class="descript-base">Este são dois reposiótios, em que se intensificam códigos em JS, intensificando estruturas lógicas para se resolver problemas!</p>
+                    </button>
+                </a>
         </section>
     </main>
     <footer>
