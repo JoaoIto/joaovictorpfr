@@ -10,18 +10,18 @@ header{
     background-color: var(--dark-green);
 }
 .header-top{
-    width: 100%;
+    width: 90%;
     height: 50px;
     margin: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .header-principal{
     display: flex;
-    justify-content: space-around;
-    margin: 30px;
+    
+    margin: 0 170px;
 }
 
 .left_principal{
@@ -29,6 +29,11 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.right_principal{
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 
 .header-down{
